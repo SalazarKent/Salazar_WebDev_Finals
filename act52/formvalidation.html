@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylsheet" type ="text/css" href="https://fonts.googleapis.com/css?family=Nunito:400,300">
+    </head>
+
+    <body>
+        <form action="" id="frm" method="POST">
+
+            <h1>Sign Up</h1>
+
+            <fieldset>
+
+                <legend><span class="section">1</span>Basic Informations</legend>
+
+            <label class = "" for="name">Name:</label>
+            <input type="text" name="name" value="" placeholder="Your Full Name" required>
+
+            <label class = "" for="email">Email:</label>
+            <input type="email" name="email" value="" required onkeydown="validateEmail()" placeholder="Enter Valid Email">
+
+            <label class = "" for="password">Password:</label>
+            <input type="password" name="password" value="" id="pass1" required onkeydown="validatePassword()" minlength="4" placeholder="Enter Password (should be 4 or more characters)">
+            <span id="passcheck" class="error"></span><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male">
+            <label class = "light "for="male">Male</label>
+
+            
+            <input type="radio" name="gender" value="Female">
+            <label class = "light "for="female">Female</label>
+
+        </fieldset>
+        <legend><span class="section">2</span>Profile</legend>
+        
+        <label class = ""for="bio">Bio:</label>
+        <textarea name="bio" placeholder="Enter Short Description" required></textarea>
+        <fieldset>
+
+        <label for="status">Civil Status</label>
+        <select name="status" >
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widow">Widow</option>
+            <option value="divorced">Divorced</option>
+
+        </select>
+
+        <label>Check the boxes below:</label><br>
+
+        <input type="checkbox" value="terms" name="agreement" required>
+        <label class = "light" for="conditions">I have already read the terms and conditions.</label>
+
+        </fieldset>
+
+        <button type="submit">Sign Up</button>
+        <button type="reset">Reset</button>
+        </form>
+    </body>
+    <script src="js/script.js"></script>
+</html>
