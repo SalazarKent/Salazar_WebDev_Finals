@@ -1,0 +1,94 @@
+body{
+    background-color: #FAFAFA;
+}
+
+.nav-wrapper{
+    background-color: #FFFFFF;
+}
+
+.insta-icon{
+    font-size: 2rem;
+}
+
+.instagram{
+    font-size: 2rem;
+    font-family: 'Oleo Script', cursive;
+    color: #262626;
+}
+
+.search-bar{
+    margin: 0;
+    margin-left: 180px;
+    height: 31px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.nav-icons{
+    font-size: 1.8rem;
+    color: #262626;
+}
+
+.nav-icons:hover{
+    font-size: 1.7rem;
+    color: #262626;
+    text-decoration: none;
+}
+
+
+.card{
+    height: 865px;
+    width: 615px;
+}
+
+.card-img{
+    height: 612px;
+}
+
+.page-img{
+    border-radius: 40px;
+}
+
+.page-name{
+    margin: 0;
+    margin-left: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+.card-title{
+    margin: 0;
+    margin-left: 8px;
+}
+
+.minutes{
+    font-size: 10px;
+}
+
+.comment-section{
+    background-color: #FFFFFF;
+    height: 3rem;
+    width: 615px;
+    margin: 0;
+    margin-left: 0px;
+    border: 1px solid #E6E6E6;
+}
+
+.comment{
+    border: 1px solid black;
+    text-decoration: none;
+    border-style: none;
+    background: none;
+    height: 3rem;
+    width: 40rem;
+    outline: none;
+}
+
+.card-div{
+    margin: 0;
+    margin-top: 61px;
+}
+
+
